@@ -33,6 +33,9 @@ def end_game():
 game_screen.onkey(space_ship.move_left, "Left")
 game_screen.onkey(space_ship.move_right, "Right")
 
+game_screen.onkey(space_ship.move_left, "a")
+game_screen.onkey(space_ship.move_right, "d")
+
 # fire missiles with space bar
 game_screen.onkey(space_ship.shoot, "space")
 
